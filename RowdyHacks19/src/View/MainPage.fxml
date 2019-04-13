@@ -7,8 +7,17 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fitHeight="600.0" fitWidth="600.0" prefHeight="286.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
+<AnchorPane prefHeight="490.0" prefWidth="482.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
    <children>
+      <AnchorPane layoutX="-162.0" layoutY="-173.0" prefHeight="373.0" prefWidth="362.0">
+         <children>
+            <ImageView fitHeight="183.0" fitWidth="185.0" layoutX="317.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Data/img/Note.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
       <Button fx:id="quickNote" layoutX="89.0" layoutY="279.0" mnemonicParsing="false" onAction="#LoadQuickNote" prefHeight="30.0" prefWidth="305.0" text="Quick Note" />
       <Button fx:id="notes" layoutX="89.0" layoutY="336.0" mnemonicParsing="false" onAction="#LoadMainMenu" prefHeight="30.0" prefWidth="305.0" text="Notes" />
    </children>

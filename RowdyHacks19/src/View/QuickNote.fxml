@@ -7,8 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="449.0" prefWidth="495.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+<AnchorPane prefHeight="449.0" prefWidth="495.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane layoutX="-179.0" layoutY="-125.0" prefHeight="325.0" prefWidth="379.0">
          <children>
@@ -19,7 +18,7 @@
             </TextField>
             <ImageView fx:id="goBack" fitHeight="45.0" fitWidth="47.0" layoutX="180.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../OneDrive/Pictures/Note.jpg" />
+                  <Image url="@../../../Data/img/Note.jpg" />
                </image>
             </ImageView>
          </children>
