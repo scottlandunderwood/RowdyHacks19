@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fitHeight="600.0" fitWidth="600.0" prefHeight="286.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
+   <children>
+      <Button fx:id="quickNote" layoutX="89.0" layoutY="279.0" mnemonicParsing="false" onAction="#LoadQuickNote" prefHeight="30.0" prefWidth="305.0" text="Quick Note" />
+      <Button fx:id="notes" layoutX="89.0" layoutY="336.0" mnemonicParsing="false" onAction="#LoadMainMenu" prefHeight="30.0" prefWidth="305.0" text="Notes" />
+   </children>
+</AnchorPane>
