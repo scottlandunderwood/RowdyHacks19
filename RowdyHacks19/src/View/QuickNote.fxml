@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="449.0" prefWidth="495.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="490.0" prefWidth="482.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane layoutX="-179.0" layoutY="-125.0" prefHeight="325.0" prefWidth="379.0">
          <children>
@@ -23,10 +23,10 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <TextArea fx:id="note" layoutX="32.0" layoutY="127.0" prefHeight="244.0" prefWidth="431.0" promptText="Enter note here..." />
-      <Button fx:id="addNote" layoutX="417.0" layoutY="388.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="47.0" style="-fx-background-radius: 70;" text="+">
+      <TextArea fx:id="note" layoutX="32.0" layoutY="127.0" prefHeight="292.0" prefWidth="431.0" promptText="Enter note here..." />
+      <Button fx:id="addNote" layoutX="416.0" layoutY="424.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="47.0" style="-fx-background-radius: 70;" text="+">
          <font>
-            <Font size="13.0" />
+            <Font name="System Bold" size="18.0" />
          </font>
       </Button>
    </children>
